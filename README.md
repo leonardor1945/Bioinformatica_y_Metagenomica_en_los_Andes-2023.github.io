@@ -16,7 +16,7 @@ Y descarguen 10 de los siguientes codigos de acceso SRA.
 
 
 
-Ante cualquier duda consulten a los docentes. 
+Ante cualquier duda consulten a cualquiera de los docentes.
 
 ## Control de calidad de los reads
 Es el primer paso en el flujo de trabajo en un analisis metagenomico el cual tiene por objetivo evaluar la calidad de todos los reads de las secuencias.
@@ -85,6 +85,7 @@ http://metagene.nig.ac.jp/metagene/metagene.html
 ## Bases de datos
 Para el análisis de los genes obtenidos es importante compararlos con una base de datos de referencia.
 Las mas comunes son:
+
 RefSeq: NCBI Reference Sequence Database
 ```
 https://www.ncbi.nlm.nih.gov/refseq/
@@ -92,6 +93,10 @@ https://www.ncbi.nlm.nih.gov/refseq/
 Uniprot
 ```
 https://www.uniprot.org/
+```
+CAZy
+```
+http://www.cazy.org/
 ```
 Interpro
 ```
@@ -101,7 +106,3 @@ CARD
 ```
 https://card.mcmaster.ca/
 ```
-
-
-
-
