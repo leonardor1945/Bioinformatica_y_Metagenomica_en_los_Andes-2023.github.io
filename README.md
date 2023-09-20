@@ -71,9 +71,32 @@ metaquast.py contigs.fasta -o contigs_metaquast
 ```
 
 ## Predicción de genes
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+La predicción de genes consiste en identificar regiones codificantes en una secuencia de ADN. Al tratarse de un metagenoma, existe una alta posibilidad de encontrar fragmentos de genes.
+Para esta tarea, haremos uso del sitio weg MetaGene donde submitiremos el metagenoma ensamblado.
+```
+http://metagene.nig.ac.jp/metagene/metagene.html
+```
 
-## Anotación funcional
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+## Bases de datos
+Para el análisis de los genes obtenidos es importante compararlos con una base de datos de referencia.
+Las mas comunes son:
+RefSeq: NCBI Reference Sequence Database
+```
+https://www.ncbi.nlm.nih.gov/refseq/
+```
+Uniprot
+```
+https://www.uniprot.org/
+```
+Interpro
+```
+https://www.ebi.ac.uk/interpro/
+```
+CARD
+```
+https://card.mcmaster.ca/
+```
+
+
+
+
