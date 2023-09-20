@@ -49,12 +49,12 @@ MOSA UASB
 Accession: SRX13142944  Accession: SRX13142944
 Accession: SRX13142942
 
-activated sludge metagenome
+Activated sludge metagenome
 
 Accession: SRX11245213  Accession: SRX11245212
 Accession: SRX11245211
 
-shotgun sequencing for microalgae-bacteria aggregates: antibiotic resistance
+Shotgun sequencing for microalgae-bacteria aggregates: antibiotic resistance
 
 Accession: SRX20697646  Accession: SRX20697645
 Accession: SRX20697644  Accession: SRX20697643
@@ -84,7 +84,7 @@ Accession: SRX20466367  Accession: SRX20466366
 Accession: SRX20466365  Accession: SRX20466364
 Accession: SRX20466363  Accession: SRX20466362
 
-freshwater sediment metagenome
+Freshwater sediment metagenome
 
 Accession: SRX21391458  Accession: SRX21391457
 Accession: SRX21391456  Accession: SRX21391455
@@ -126,7 +126,7 @@ https://usegalaxy.org/
 ```
 Y submitiremos los archivos read1 y read2 posterior al trimming. A continuación ejecutaremos la herramienta Kraken2 con los datos cargados.
 
-## Herramientas de viusalización
+## Herramientas de visualización
 Para la visualización de la diversidad de la muestra metagenómica, ejecutaremos la herramienta Krona pie chart en Galaxy con los datos de salida del paso anterior.
 
 ## Ensamblaje de metagenomas
