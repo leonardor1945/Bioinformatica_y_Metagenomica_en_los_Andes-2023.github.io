@@ -14,25 +14,37 @@ git clone https://github.com/iferres/Curso_Metagenomica_IIBCE
 Ante cualquier duda consulten a los docentes. 
 
 ## Control de calidad de los reads
-Para el control de calidad utilizaremos la herramienta FastQC.
+Es el primer paso en el flujo de trabajo en un analisis metagenomico el cual tiene por objetivo evaluar la calidad de todos los reads de las secuencias.
+Para realizar el control de calidad de las secuencias, utilizaremos la herramienta FastQC.
 ```
 https://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 ```
+La evaluación y visualización de los parametros de calidad seran ejecutadas mediante el siguiente comando:
+``` bash
+
+fastqc read1.fastq.gz read2.fastq.gz 
+```
 ## Trimming
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+El trimming consiste en la remosion de los adaptadores y reads de baja calidad; este se realiza mediante programas bioinformáticos especiales para esta tarea.
+Para este fin instalaremos el programa TrimGalore.
+```
+https://github.com/FelixKrueger/TrimGalore
+```
+Para la realizar el proceso de trimming, configuraremos el programa para secuencias de illumina, paired y control de calidad de la salida.
+``` bash
 
-## Decontaminación
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
-
-## Taxonomia
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+trim_galore --paired --fastqc --illumina read1.fastq.gz read2.fastq.gz
+```
+## Taxonomía basada en reads
+Identificación y cuantificación de las especies en una muestra metagenómica determinada basada en la distribución y secuencia de todos los reads.
+Para este proceso crearemos una cuenta en Galaxy.
+```
+https://usegalaxy.org/
+```
+Y submitiremos los archivos read1 y read2 posterior al trimming. A continuación ejecutaremos la herramienta Kraken2 con los datos cargados.
 
 ## Herramientas de viusalización
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+Para la visualización de la diversidad de la muestra metagenómica, ejecutaremos la herramienta Krona pie chart en Galaxy con los datos de salida del paso anterior.
 
 ## Ensamblaje
 The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
