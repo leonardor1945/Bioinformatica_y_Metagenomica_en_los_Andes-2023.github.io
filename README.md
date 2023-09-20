@@ -46,13 +46,29 @@ Y submitiremos los archivos read1 y read2 posterior al trimming. A continuación
 ## Herramientas de viusalización
 Para la visualización de la diversidad de la muestra metagenómica, ejecutaremos la herramienta Krona pie chart en Galaxy con los datos de salida del paso anterior.
 
-## Ensamblaje
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+## Ensamblaje de metagenomas
+Es el proceso de descifrar y reconstruir la secuencia de todos los genomas correspondientes a una muestra a partir de pequeños fragmentos de ADN haciendo uso de algoritmos informaticos. 
+Con este fin instalaremos la herramienta MEGAHIT.
+```
+https://github.com/voutcn/megahit
+```
+Y ejecutaremos el siguiente codigo
+``` bash
+
+megahit -1 read1.fastq.gz -2 read2.fastq.gz -o out 
+```
 
 ## Control de calidad del metagenoma
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
-using data in the INSDC Sequence Read Archives.
+Consiste en evaluar la calidad del metagenoma ensamblado previamente basándose principalmente en alineamientos con referencias cercanas.
+Para este fin instalaremos y ejecutaremos la herramienta metaquast.
+```
+https://github.com/ablab/quast
+```
+Y ejecutaremos el siguiente codigo
+``` bash
+
+metaquast.py contigs.fasta -o contigs_metaquast
+```
 
 ## Predicción de genes
 The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for
