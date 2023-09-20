@@ -14,9 +14,76 @@ https://github.com/ncbi/sra-tools
 ```
 Y descarguen 10 de los siguientes codigos de acceso SRA.
 
+Metagenomic Shotgun Sequencing of Surface Water Samples:
+Accession: SRX20755941  Accession: SRX20755940
+Accession: SRX20755939  Accession: SRX20755938
+Accession: SRX20755937  Accession: SRX20755936
+Accession: SRX20755935  Accession: SRX20755934
+Accession: SRX20755933  Accession: SRX20755932
+Accession: SRX20755931  Accession: SRX20755930
+Accession: SRX20755929  Accession: SRX20755928
+Accession: SRX20755927  Accession: SRX20755926
+Accession: SRX20755925  Accession: SRX20755924
+Accession: SRX20755923  Accession: SRX20755922
+Accession: SRX20755921  Accession: SRX20755920
+Accession: SRX20755919  Accession: SRX20755918
+Accession: SRX20755917  Accession: SRX20755916
+Accession: SRX20755915  Accession: SRX20755914
+Accession: SRX20755913  Accession: SRX20755912
+Accession: SRX20755911  Accession: SRX20755910
+Accession: SRX20755909  Accession: SRX20755908
+Accession: SRX20755907  Accession: SRX20755906
+Accession: SRX20755905  Accession: SRX20755904
+Accession: SRX20755903  Accession: SRX20755902
+Residos hospitalarios
+Accession: SRX13142947  Accession: SRX13142946
+Accession: SRX13142945  
+MOSA UASB
+Accession: SRX13142944  Accession: SRX13142944
+Accession: SRX13142942
+activated sludge metagenome
+Accession: SRX11245213  Accession: SRX11245212
+Accession: SRX11245211
+shotgun sequencing for microalgae-bacteria aggregates: antibiotic resistance
+Accession: SRX20697646  Accession: SRX20697645
+Accession: SRX20697644  Accession: SRX20697643
+Accession: SRX20697642  Accession: SRX20697641
+Accession: SRX20697640
+WGS of human child gut
+Accession: SRX20466401  Accession: SRX20466400
+Accession: SRX20466399  Accession: SRX20466398
+Accession: SRX20466397  Accession: SRX20466396
+Accession: SRX20466395  Accession: SRX20466394
+Accession: SRX20466393  Accession: SRX20466392
+Accession: SRX20466391  Accession: SRX20466390
+Accession: SRX20466389  Accession: SRX20466388
+Accession: SRX20466387  Accession: SRX20466386
+Accession: SRX20466385  Accession: SRX20466384
+Accession: SRX20466383  Accession: SRX20466382
+Accession: SRX20466381  Accession: SRX20466380
+Accession: SRX20466379  Accession: SRX20466378
+Accession: SRX20466377  Accession: SRX20466376
+Accession: SRX20466375  Accession: SRX20466374
+Accession: SRX20466373  Accession: SRX20466372
+Accession: SRX20466371  Accession: SRX20466370
+Accession: SRX20466369  Accession: SRX20466368
+Accession: SRX20466367  Accession: SRX20466366
+Accession: SRX20466365  Accession: SRX20466364
+Accession: SRX20466363  Accession: SRX20466362
+freshwater sediment metagenome
+Accession: SRX21391458  Accession: SRX21391457
+Accession: SRX21391456  Accession: SRX21391455
+Accession: SRX21391454  Accession: SRX21391453
+Accession: SRX21391452  Accession: SRX21391451
+Accession: SRX21391450  Accession: SRX21391449
+Accession: SRX21391448  Accession: SRX21391447
+Accession: SRX21391446  Accession: SRX21391445
+Accession: SRX21391444  Accession: SRX21391443
+Accession: SRX21391442  Accession: SRX21391441
 
 
-Ante cualquier duda consulten a cualquiera de los docentes.
+Ante cualquier duda consulten a cualquiera de los instructores.
+
 
 ## Control de calidad de los reads
 Es el primer paso en el flujo de trabajo en un analisis metagenomico el cual tiene por objetivo evaluar la calidad de todos los reads de las secuencias.
