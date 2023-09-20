@@ -5,12 +5,17 @@
 ### Contacto:
 email: lrocabado22@gmail.com
 
+### Sistema operativo
+Para esta sección es recomendable la particion del disco duro con una distribución de Unix.
 ### Secuencias
-Para disponer de los archivos que van a hacer falta en estos tutoriales, será necesario que abran una Terminal, y copien y peguen el siguiente código:
+Para disponer de los archivos que seran análisados en este curso, será necesario que abran una Terminal, unstalen el prdoama:
+```
+https://github.com/ncbi/sra-tools
+```
+Y descarguen 10 de los siguientes codigos de acceso SRA.
 
-```
-git clone https://github.com/iferres/Curso_Metagenomica_IIBCE
-```
+
+
 Ante cualquier duda consulten a los docentes. 
 
 ## Control de calidad de los reads
