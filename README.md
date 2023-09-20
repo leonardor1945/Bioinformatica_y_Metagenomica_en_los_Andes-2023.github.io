@@ -10,11 +10,11 @@ Ante cualquier duda consulten a cualquiera de los instructores.
 ### Sistema operativo
 Para esta sección es recomendable la particion del disco duro con una distribución de Unix.
 ### Secuencias
-Para disponer de los archivos que seran análisados en este curso, será necesario que abran una Terminal, unstalen el prdoama:
+Para disponer de los archivos que seran análizados en este curso, será necesario que abran una Terminal, e instalen el programa SRA-tools:
 ```
 https://github.com/ncbi/sra-tools
 ```
-Y descarguen 10 de los siguientes codigos de acceso SRA.
+Y descarguen al menos 10 de los siguientes codigos de acceso SRA.
 
 Metagenomic Shotgun Sequencing of Surface Water Samples:
 
