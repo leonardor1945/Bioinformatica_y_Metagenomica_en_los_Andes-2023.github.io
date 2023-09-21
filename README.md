@@ -8,7 +8,12 @@ email: lrocabado22@gmail.com
 Ante cualquier duda consulten a cualquiera de los instructores.
 
 ### Sistema operativo
-Para esta sección es recomendable la particion del disco duro con una distribución de Unix.
+Para esta sección es recomendable la particion del disco duro con una distribución de Linux.
+### Conda
+Instalar ambiente conda para la instalación posterior de megahit
+```
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
+```
 ### Secuencias
 Para disponer de los archivos que seran análizados en este curso, será necesario que abran una Terminal, e instalen el programa SRA-tools:
 ```
