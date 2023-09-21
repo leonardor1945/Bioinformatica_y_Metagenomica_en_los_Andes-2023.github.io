@@ -184,3 +184,8 @@ CARD
 ```
 https://card.mcmaster.ca/
 ```
+## Software adicional
+Para procesamiento adicional de los reads y ploteo de datos instalar seqTK y su paquete preferido para ploteo en R.
+```
+https://github.com/lh3/seqtk
+```
