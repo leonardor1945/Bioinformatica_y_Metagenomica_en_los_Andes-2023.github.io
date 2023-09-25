@@ -195,7 +195,6 @@ Para procesamiento adicional de los reads y ploteo de datos instalar seqTK y su 
 https://github.com/lh3/seqtk
 ```
 ## Lecturas
-Para procesamiento adicional de los reads y ploteo de datos instalar seqTK y su paquete preferido para ploteo en R.
 ```
 https://academic.oup.com/bioinformatics/article/31/10/1674/177884
 https://www.sciencedirect.com/science/article/pii/S2001037016300678
