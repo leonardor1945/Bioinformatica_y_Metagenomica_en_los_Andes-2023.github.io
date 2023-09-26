@@ -114,7 +114,7 @@ fastqc read1.fastq.gz read2.fastq.gz
 ```
 ## Trimming
 El trimming consiste en la remosion de los adaptadores y reads de baja calidad; este se realiza mediante programas bioinformáticos especiales para esta tarea.
-Para este fin instalaremos el programa TrimGalore.
+Para este fin instalaremos el programa Trim-Galore.
 ```
 https://github.com/FelixKrueger/TrimGalore
 ```
@@ -160,7 +160,7 @@ metaquast.py contigs.fasta -o contigs_metaquast
 
 ## Predicción de genes
 La predicción de genes consiste en identificar regiones codificantes en una secuencia de ADN. Al tratarse de un metagenoma, existe una alta posibilidad de encontrar fragmentos de genes.
-Para esta tarea, haremos uso del sitio weg MetaGene donde submitiremos el metagenoma ensamblado.
+Para esta tarea, haremos uso del sitio web MetaGene donde submitiremos el metagenoma ensamblado.
 ```
 http://metagene.nig.ac.jp/metagene/metagene.html
 ```
