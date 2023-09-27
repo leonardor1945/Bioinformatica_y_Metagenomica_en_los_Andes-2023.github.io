@@ -15,7 +15,7 @@ Instalar ambiente conda para la instalación posterior de megahit
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html
 ```
 ### Secuencias
-Para disponer de los archivos que seran análizados en este curso, será necesario que abran una Terminal, e instalen el programa SRA-tools:
+Para disponer de los archivos que seran análizados en este curso, será necesario que abran una Terminal, e instalen el programa SRA Toolkit:
 ```
 https://github.com/ncbi/sra-tools
 ```
