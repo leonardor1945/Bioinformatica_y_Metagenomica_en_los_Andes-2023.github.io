@@ -162,7 +162,7 @@ metaquast.py contigs.fasta -o contigs_metaquast
 La predicción de genes consiste en identificar regiones codificantes en una secuencia de ADN. Al tratarse de un metagenoma, existe una alta posibilidad de encontrar fragmentos de genes.
 Para esta tarea, haremos uso del sitio web MetaGene donde submitiremos el metagenoma ensamblado.
 ```
-http://metagene.nig.ac.jp/metagene/metagene.html
+http://exon.gatech.edu/meta_gmhmmp.cgi
 ```
 
 ## Bases de datos
